@@ -20,7 +20,7 @@ public class MaterialServiceImpl implements MaterialService{
 
 	@Override
 	public List<Material> obtnerTodas() {
-		return materialRepository.obtnerTodas();
+		return materialRepository.obtnerTodas(); 
 	}
 
 }
